@@ -1,5 +1,6 @@
 import os
 import shutil
+
 import jobrun
 
 def test_read_yaml():
