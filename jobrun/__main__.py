@@ -1,0 +1,3 @@
+import jobrun
+
+jobrun.main()

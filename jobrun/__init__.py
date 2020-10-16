@@ -1,6 +1,8 @@
 import os
 import yaml
 
+from .cli import *
+
 __version__ = '1.0'
 
 def read_yaml(path) -> dict:
