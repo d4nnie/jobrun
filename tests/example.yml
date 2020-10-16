@@ -1,0 +1,13 @@
+---
+before_script:
+    - touch file
+
+stages:
+    - run
+
+run.example:
+    stage: run
+    script:
+        - mkdir -p folder
+        - cd folder
+        - touch file_in_folder
